@@ -1,0 +1,122 @@
+body {
+    
+    background:#e6e6ff;
+    
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #595959;
+    text-shadow: 3px 2px white;
+
+  }
+  
+  .user-display {
+    text-align: center;
+    color: rgb(255, 255, 153);
+    border: 2px solid rgb(255, 255, 153);
+    border-radius: 10px;
+    display: inline-block;
+    width: 16%;
+    margin-right: 5px; 
+  }
+  
+  .instructions {
+    text-align: left;
+    padding-left: 5px; 
+    color: rgb(255, 255, 153);
+    border: 1px solid rgb(255, 255, 153);
+    border-radius: 10px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-left: 20%;
+
+    background:#595959;
+    width: 64%;
+    height: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  #messageBox {
+    text-align: center;
+    color: rgb(255, 255, 153);
+    border: 2px solid rgb(255, 255, 153);
+    border-radius: 10px;
+  }
+  
+  .board {
+      width: 370px;
+      height: 370px;
+      margin: 10px;
+      border: 10px solid #595959;
+      margin-left: 20%;
+  }
+  
+  .cell {
+      float: left;
+      width: 35px;
+      height: 35px;
+      background-image: radial-gradient(#bdbdbd,#bdbdbd);
+      border: 1px solid #595959;
+      font-size:25px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+      line-height: 35px;
+  }
+  ..sweet-alert {
+    margin-left: -140px !important;
+    width: 250px !important;
+}
+.showSweetAlert{
+margin-left: -140px !important;
+    width: 250px !important;
+  } 
+  .visible{
+margin-left: -140px !important;
+    width: 250px !important;
+  }
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgb(255, 255, 153);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  .button:hover {background-color: rgb(224, 224, 139)}
+  
+  .button:active {
+    background-color:  #e6b3ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #bombicon{
+
+    font-size:33px;
+    padding-top: 2%;
+  }
+
+  #flag{
+    font-size:30px;
+    color: black;
+
+  }
